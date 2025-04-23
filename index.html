@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magic Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1 id="main-title">Welcome to the Magic Lab!</h1>
+  </header>
+
+  <section>
+    <p id="info">Press the spell button below to see magic happen...</p>
+    <button onclick="castSpell()">Cast Spell</button>
+  </section>
+
+  <section>
+    <h2>Your Magic List</h2>
+    <button onclick="summonItem()">Add Magical Item</button>
+    <button onclick="vanishItem()">Remove Last Item</button>
+    <ul id="list">
+      <li>Potion of Curiosity</li>
+      <li>Scroll of Knowledge</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Magic Lab 🪄</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
